@@ -105,7 +105,7 @@ global.author = '𝗕𝗼𝘁'
 global.vs = '1.3.0'
 global.vsJB = '2.0'
 
-global.gt = '𝗪𝗶𝘁𝘁𝘆-𝗕𝗼𝘁'
+global.wt = '𝗪𝗶𝘁𝘁𝘆-𝗕𝗼𝘁'
 global.yt = ''
 global.yt2 = ''
 global.ig = 'https://www.instagram.com/gabrielacosta_15'
