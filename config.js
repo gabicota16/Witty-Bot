@@ -156,7 +156,7 @@ global.waitttt = '*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*'
 global.nomorown = '493491456806'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
 
 
 //⊱ ━━━━━.⋅ IMG ⋅.━━━━ ⊰
@@ -174,8 +174,9 @@ global.imagen10 = fs.readFileSync('./media/menus/img9.jpg')
 global.imagen11 = fs.readFileSync('./media/menus/img10.jpg')
 global.imagen12 = fs.readFileSync('./media/menus/img11.jpg')
 global.imagen13 = fs.readFileSync('./media/menus/img12.jpg')
+global.imagen14 = fs.readFileSync('./media/menus/menustickers.jpeg')
 
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//━━━━━━━━━━━━━━━━━━━━ 
 
 
 //━━━━━━━━━━━━━━ img ━━━━━━━━━
