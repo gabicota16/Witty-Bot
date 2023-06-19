@@ -17,11 +17,11 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-╭═══*【Menu Stickers】*═══╮  
+╭═══*Menu Stickers*═══╮  
 ╿
-╿➪ {usedPrefix}sticker ❘ ${usedPrefix}s *『Responde a una imagen o video』*
+╿➪${usedPrefix}sticker ❘ ${usedPrefix}s *『Responde a una imagen o video』*
 ╿
-╰══╡★★★★★★★★★★╞══╯
+╰═╡★★★★★★★★★╞═╯
 `.trim()
 if (m.isGroup) {
 conn.sendMessage(m.chat, { image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}, { quoted: m })    
