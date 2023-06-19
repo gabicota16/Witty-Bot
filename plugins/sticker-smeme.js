@@ -4,7 +4,7 @@ import uploadImage from '../lib/uploadImage.js'
      let [atas, bawah] = text.split`|` 
      let q = m.quoted ? m.quoted : m 
      let mime = (q.msg || q).mimetype || '' 
-     if (!mime) throw `RESPONDE A UNA IMAGEN\nEJEMPLO: .smeme bot|hola` 
+     if (!mime) throw `*RESPONDE A UNA IMAGEN\nEJEMPLO: .smeme bot|hola*` 
      if (!/image\/(jpe?g|png)/.test(mime)) throw `Error` 
      m.reply(global.wait) 
      let img = await q.download() 
