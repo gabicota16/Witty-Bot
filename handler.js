@@ -1228,8 +1228,8 @@ if (botSpam.antispam && m.text && user && user.lastCommandTime && (Date.now() - 
 
                 let hl = _prefix 
                 let adminMode = global.db.data.chats[m.chat].modoadmin
-                let gata = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
-                if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && gata) return   
+                let witty = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
+                if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && witty) return   
 
                if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { // Both Owner
                     fail('owner', m, this)
@@ -1436,7 +1436,7 @@ case 'remove':
 if (chat.welcome) {
 let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata
 for (let user of participants) {
-let pp = gataMenu.getRandom()
+let pp = wittyMenu.getRandom()
 try {
 pp = await this.profilePictureUrl(user, 'image')
 } catch (e) {
