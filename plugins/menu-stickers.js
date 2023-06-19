@@ -2,8 +2,7 @@ import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
 try {
 let vn = './media/menu.mp3'
-let pp = imagen14
-let img = await(await fetch('https://img.a.transfermarkt.technology/portrait/big/28003-1671435885.jpg?lm=1')).buffer()
+let img = '.media/menus/menustickers.js
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -20,7 +19,7 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 ╭═══【*Menu Stickers*】═══╮  
 ╿
-╿➪{usedPrefix}sticker ╿ ${usedPrefix}s 『*Responde a una imagen o video*』
+╿➪{usedPrefix}sticker ╿ ${usedPrefix}s *『Responde a una imagen o video』*
 ╿
 ╰═══╡★★★★★★★★★★╞═══╯
 `.trim()
