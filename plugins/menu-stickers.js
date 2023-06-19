@@ -21,7 +21,7 @@ let str = `
 ╿
 ╿➪${usedPrefix}sticker ❘ ${usedPrefix}s *『Responde a una imagen o video』*
 ╿
-╰═╡★★★★★★★★★★╞═╯
+╰═╡★★★★★★★★★★★╞═╯
 `.trim()
 if (m.isGroup) {
 conn.sendMessage(m.chat, { image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}, { quoted: m })    
