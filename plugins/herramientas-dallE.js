@@ -9,5 +9,5 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
  } 
  } 
  handler.command = ['dall-e', 'dalle', 'ia2', 'cimg', 'openai2'] 
- handler.level = 1 
+ handler.level = 0
  export default handler
