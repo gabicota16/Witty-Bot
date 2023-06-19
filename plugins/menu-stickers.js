@@ -19,7 +19,7 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 ╭═══*【Menu Stickers】*═══╮  
 ╿
-╿➪{usedPrefix}sticker ❘ ${usedPrefix}s *『Responde a una imagen o video』*
+╿➪ {usedPrefix}sticker ❘ ${usedPrefix}s *『Responde a una imagen o video』*
 ╿
 ╰══╡★★★★★★★★★★╞══╯
 `.trim()
