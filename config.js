@@ -15,7 +15,7 @@ global.owner = [
   ['5493491456806', 'Owner', true]
 ]
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
 
 global.mods = [] 
 global.prems = ['5493491456806'] 
@@ -30,7 +30,7 @@ global.prems = ['5493491456806']
 
 global.lenguajeGB = es  //Idioma de WittyBot, Ejemplo: es | en | pt...
 
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//━━━━━━━━━━━━━━━━━━━━ 
 
 global.openai_key = 'sk-...OzYy'
 /* Consigue tu ApiKey en este enlace: https://platform.openai.com/account/api-keys */
@@ -207,13 +207,13 @@ global.img18 = 'https://i.imgur.com/9yLH4W4.jpeg'
 
 global.logogit = 'https://tinyurl.com/2qvl9vgs'
 
-global.welgata = [ig, yt2, yt2, ig, md, ig, yt, yt2, yt2, ig, fb]
+global.welwitty = [ig, yt2, yt2, ig, md, ig, yt, yt2, yt2, ig, fb]
 global.redesMenu = [nna, md, ig, yt, asistencia, fb]
-global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18]
-global.gataVidMenu = ['./media/menus/Menuvid1.mp4', './media/menus/Menuvid2.mp4', './media/menus/Menuvid3.mp4']
-global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13]
+global.wittyMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18]
+global.wittyVidMenu = ['./media/menus/Menuvid1.mp4', './media/menus/Menuvid2.mp4', './media/menus/Menuvid3.mp4']
+global.wittyImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13]
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
 
 
 //⊱ ━━━━━.⋅ RPG ⋅.━━━━ ⊰
@@ -385,7 +385,7 @@ global.rpgg = { //Solo emojis
       ayam: '🐓', babi: '🐖', Jabali: '🐗', bull: '🐃', buaya: '🐊', cat: '🐈',      
       centaur: '🐐', chicken: '🐓', cow: '🐄', dog: '🐕', dragon: '🐉', elephant: '🐘',
       fox: '🦊', giraffe: '🦒', griffin: '🦅', //Mascota : Griffin',
-      horse: '🐎', kambing: '🐐', kerbau: '🐃', lion: '🦁', money: '🐱', monyet: '🐒', panda: '🐼',
+      horse: '🐎', kambing: '🐐', kerbau: '🐃', lion: '🦁', money: '💸', monyet: '🐒', panda: '🐼',
       snake: '🐍', phonix: '🕊️', rhinoceros: '🦏',
       wolf: '🐺', tiger: '🐅', cumi: '🦑', udang: '🦐', ikan: '🐟',
       
@@ -404,7 +404,7 @@ global.rpgshop = { //Tienda
     let emottt = {
       exp: lenguajeGB.eExp(), limit: lenguajeGB.eDiamante(), diamond: lenguajeGB.eDiamantePlus(), joincount: lenguajeGB.eToken(),
       emerald: lenguajeGB.eEsmeralda(), berlian: lenguajeGB.eJoya(), kyubi: lenguajeGB.eMagia(), gold: lenguajeGB.eOro(),
-      money: lenguajeGB.eGataCoins(), tiketcoin: lenguajeGB.eGataTickers(), stamina: lenguajeGB.eEnergia(),
+      money: lenguajeGB.eWittyCoins(), tiketcoin: lenguajeGB.eWittyTickets(), stamina: lenguajeGB.eEnergia(),
             
       potion: lenguajeGB.ePocion(), aqua: lenguajeGB.eAgua(), trash: lenguajeGB.eBasura(), wood: lenguajeGB.eMadera(),
       rock: lenguajeGB.eRoca(), batu: lenguajeGB.ePiedra(), string: lenguajeGB.eCuerda(), iron: lenguajeGB.eHierro(),
@@ -444,7 +444,7 @@ global.rpgshopp = { //Tienda
     let emotttt = {
       exp: '⚡', limit: '💎', diamond: '💎+', joincount: '🪙',
       emerald: '💚', berlian: '♦️', kyubi: '🌀', gold: '👑',
-      money: '🐱', tiketcoin: '🎫', stamina: '✨',
+      money: '💸', tiketcoin: '🎫', stamina: '✨',
             
       potion: '🥤', aqua: '💧', trash: '🗑', wood: '🪵',
       rock: '🪨', batu: '🥌', string: '🕸️', iron: '⛓️',
