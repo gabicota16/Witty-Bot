@@ -24,6 +24,8 @@ let str = `
 ╿➪${usedPrefix}smeme *texto1|texto1* *(Responde a una*\n*╿imagen o video)*
 ╿
 ╿➪${usedPrefix}scircle *(responde a una imagen)*
+╿
+╿➪${usedPrefix}semoji *tipo - emoji*
 ╰═╡★★★★★★★★★★★╞═╯
 `.trim()
 if (m.isGroup) {
