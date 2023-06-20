@@ -19,15 +19,15 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 ╭═══✠𝗠𝗲𝗻𝘂 𝗦𝘁𝗶𝗰𝗸𝗲𝗿𝘀✠═══╮  
 ╿
-╿➪${usedPrefix}sticker ❘ ${usedPrefix}s *(Responde a una\n╿imagen o video)*
+╿➪${usedPrefix}sticker ❘ ${usedPrefix}s *(Responde a una*\n╿*imagen o video)*
 ╿
-╿➪${usedPrefix}smeme texto1|texto1* (Responde a una\n╿imagen o video)
+╿➪${usedPrefix}smeme texto1|texto1 *(Responde a una*\n╿*imagen o video)*
 ╿
-╿➪${usedPrefix}scircle* (responde a una imagen)
+╿➪${usedPrefix}scircle *(responde a una imagen)*
 ╿
-╿➪${usedPrefix}semoji tipo - emoji* (ej: ${usedPrefix}semoji pi 😉)*
+╿➪${usedPrefix}semoji tipo - emoji *(ej: ${usedPrefix}semoji pi 😉)*
 ╿
-╿➪${usedPrefix}emojimix *emoji1+emoji2*\n(ej: ${usedPrefix}emojimix 😂+😈)
+╿➪${usedPrefix}emojimix *emoji1+emoji2*\n*(ej: ${usedPrefix}emojimix 😂+😈)*
 ╰═╡★★★★★★★★★★★╞═╯
 `.trim()
 if (m.isGroup) {
