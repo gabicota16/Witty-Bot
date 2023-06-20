@@ -21,7 +21,7 @@ let str = `
 ╿
 ╿➪${usedPrefix}sticker ❘ ${usedPrefix}s *(Responde a una*\n*╿imagen o video)*
 ╿
-╿*➪${usedPrefix}smeme texto1|texto1* (Responde a una\n╿imagen o video)
+*╿➪${usedPrefix}smeme texto1|texto1* (Responde a una\n╿imagen o video)
 ╿
 ╿➪${usedPrefix}scircle *(responde a una imagen)*
 ╿
