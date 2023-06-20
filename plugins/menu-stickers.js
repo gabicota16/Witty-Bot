@@ -45,6 +45,8 @@ let str = `
 ╿
 ╿➪${usedPrefix}qc *texto*
 ╿
+╿➪${usedPrefix}stickertelegram *enlace de sticker*
+╿
 ╰═╡★★★★★★★★★★★╞═╯
 `.trim()
 if (m.isGroup) {
