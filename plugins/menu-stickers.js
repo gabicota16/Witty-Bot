@@ -25,7 +25,7 @@ let str = `
 ╿
 ╿➪${usedPrefix}scircle *(responde a una imagen)*
 ╿
-╿➪${usedPrefix}semoji *tipo - emoji*
+╿➪${usedPrefix}semoji *tipo - emoji* *(ej: ${usedPrefix}semoji pi 😉)*
 ╰═╡★★★★★★★★★★★╞═╯
 `.trim()
 if (m.isGroup) {
