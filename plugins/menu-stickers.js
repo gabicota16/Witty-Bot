@@ -43,6 +43,8 @@ let str = `
 ╿
 ╿➪${usedPrefix}ttp5 *texto*
 ╿
+╿➪${usedPrefix}qc *texto*
+╿
 ╰═╡★★★★★★★★★★★╞═╯
 `.trim()
 if (m.isGroup) {
