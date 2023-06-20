@@ -28,6 +28,21 @@ let str = `
 ╿➪${usedPrefix}semoji 'tipo' 'emoji' *(ej: ${usedPrefix}semoji pi 😉)*
 ╿
 ╿➪${usedPrefix}emojimix emoji1+emoji2\n*╿(ej: ${usedPrefix}emojimix 😂+😈)*
+╿
+╿➪${usedPrefix}attp *texto*
+╿
+╿➪${usedPrefix}attp2 *texto*
+╿
+╿➪${usedPrefix}ttp *texto*
+╿
+╿➪${usedPrefix}ttp2 *texto*
+╿
+╿➪${usedPrefix}ttp3 *texto*
+╿
+╿➪${usedPrefix}ttp4 *texto*
+╿
+╿➪${usedPrefix}ttp5 *texto*
+╿
 ╰═╡★★★★★★★★★★★╞═╯
 `.trim()
 if (m.isGroup) {
