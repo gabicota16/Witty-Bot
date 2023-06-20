@@ -47,9 +47,9 @@ let str = `
 ╿
 ╿➪${usedPrefix}stickertelegram *enlace de sticker*
 ╿
-╿➪${usedPrefix}stickerfilter efecto *(responde a una imagen)*
+╿➪${usedPrefix}stickerfilter efecto *(responde\n*╿a una imagen)*
 ╿
-╿➪{usedPrefix}stickermaker efecto *(responde a una imagen)*
+╿➪{usedPrefix}stickermaker efecto *(responde\n*╿a una imagen)*
 ╿
 ╰═╡★★★★★★★★★★★╞═╯
 `.trim()
