@@ -19,9 +19,9 @@ import fetch from 'node-fetch'
  let str = ` 
  ╭═══✠𝗠̲𝗲̲𝗻̲𝘂̲ 𝗝̲𝘂̲𝗲̲𝗴̲𝗼̲𝘀̲✠═══╮   
  ╿ 
- ╿➪${usedPrefix}buscarpalabra
+ ╿➪🃏${usedPrefix}buscarpalabra
  ╿ 
- ╿➪${usedPrefix}slot *cantidad* 
+ ╿➪🃏${usedPrefix}slot *cantidad* 
  ╰═╡★★★★★★★★★★★╞═╯ 
  `.trim() 
  if (m.isGroup) { 
