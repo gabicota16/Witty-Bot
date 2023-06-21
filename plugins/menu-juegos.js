@@ -21,7 +21,7 @@ import fetch from 'node-fetch'
  ╿ 
  ╿➪${usedPrefix}buscarpalabra
  ╿ 
- ╿ 
+ ╿➪${usedPrefix}slot *cantidad* 
  ╰═╡★★★★★★★★★★★╞═╯ 
  `.trim() 
  if (m.isGroup) { 
