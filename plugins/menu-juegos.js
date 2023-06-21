@@ -19,7 +19,7 @@ import fetch from 'node-fetch'
  let str = ` 
  ╭═══✠𝗠̲𝗲̲𝗻̲𝘂̲ 𝗝̲𝘂̲𝗲̲𝗴̲𝗼̲𝘀̲✠═══╮   
  ╿ 
- ╿➪${usedPrefix}sticker ❘ ${usedPrefix}s *(Responde a una*\n*╿imagen o video)* 
+ ╿➪${usedPrefix}buscarpalabra
  ╿ 
  ╿ 
  ╰═╡★★★★★★★★★★★╞═╯ 
