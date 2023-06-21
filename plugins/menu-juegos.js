@@ -17,39 +17,10 @@ import fetch from 'node-fetch'
  let readMore = more.repeat(850)    
  let taguser = '@' + m.sender.split("@s.whatsapp.net")[0] 
  let str = ` 
- ╭═══✠𝗠𝗲𝗻𝘂 𝗦𝘁𝗶𝗰𝗸𝗲𝗿𝘀✠═══╮   
+ ╭═══✠𝗠̲𝗲̲𝗻̲𝘂̲ 𝗝̲𝘂̲𝗲̲𝗴̲𝗼̲𝘀̲✠═══╮   
  ╿ 
  ╿➪${usedPrefix}sticker ❘ ${usedPrefix}s *(Responde a una*\n*╿imagen o video)* 
  ╿ 
- ╿➪${usedPrefix}smeme texto1|texto1 *(Responde a una*\n*╿imagen o video)* 
- ╿ 
- ╿➪${usedPrefix}scircle *(responde a una imagen)* 
- ╿ 
- ╿➪${usedPrefix}semoji 'tipo' 'emoji' *(ej: ${usedPrefix}semoji pi 😉)* 
- ╿ 
- ╿➪${usedPrefix}emojimix emoji1+emoji2\n*╿(ej: ${usedPrefix}emojimix 😂+😈)* 
- ╿ 
- ╿➪${usedPrefix}attp *texto* 
- ╿ 
- ╿➪${usedPrefix}attp2 *texto* 
- ╿ 
- ╿➪${usedPrefix}ttp *texto* 
- ╿ 
- ╿➪${usedPrefix}ttp2 *texto* 
- ╿ 
- ╿➪${usedPrefix}ttp3 *texto* 
- ╿ 
- ╿➪${usedPrefix}ttp4 *texto* 
- ╿ 
- ╿➪${usedPrefix}ttp5 *texto* 
- ╿ 
- ╿➪${usedPrefix}qc *texto* 
- ╿ 
- ╿➪${usedPrefix}stickertelegram *enlace de sticker* 
- ╿ 
- ╿➪${usedPrefix}stickerfilter efecto *(responde*\n*╿a una imagen)* 
- ╿ 
- ╿➪${usedPrefix}stickermaker efecto *(responde*\n*╿a una imagen)* 
  ╿ 
  ╰═╡★★★★★★★★★★★╞═╯ 
  `.trim() 
