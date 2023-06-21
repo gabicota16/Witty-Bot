@@ -67,7 +67,7 @@ let fila, columna, sopaNube, sopaPalabra, sopaDir, userSP, cambioLetra, diamante
   const LETRAS_POSIBLES = "ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓜⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏ"  
   const numerosUni = ["⓿", "❶", "❷", "❸", "❹", "❺", "❻", "❼", "❽", "❾", "❿", "⓫", "⓬", "⓭", "⓮", "⓯", "⓰", "⓱", "⓲", "⓳", "⓴"]  
   let sopaDeLetrasConBordes = ""  
-  sopaDeLetrasConBordes += "     " + [...Array(LADO).keys()].map(num => numerosUni[num]).join(" ") + "\n"  
+  sopaDeLetrasConBordes += "   *╭" + "┄".repeat(LADO) + '┄┄' + "╮*\n" + [...Array(LADO).keys()].map(num => numerosUni[num]).join(" ") + "\n"  
   //sopaDeLetrasConBordes += "   *╭" + "┄".repeat(LADO) + '┄┄' + "╮*\n"  
   
   for (let i = 0; i < LADO; i++) {  
@@ -82,7 +82,7 @@ let fila, columna, sopaNube, sopaPalabra, sopaDir, userSP, cambioLetra, diamante
   }  
   }  
   fila += ""  
-  sopaDeLetrasConBordes += fila + "\n"  
+  sopaDeLetrasConBordes += "   *╰" + "┄".repeat(LADO) + '┄┄' + "╯*"  
   }  
   //sopaDeLetrasConBordes += "   *╰" + "┄".repeat(LADO) + '┄┄' + "╯*"  
   sopaDeLetrasConBordes = sopaDeLetrasConBordes.replace(/[a-zA-Z]/g, letra => LETRAS_POSIBLES[letra.charCodeAt() - 65] || letra)  
