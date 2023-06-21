@@ -50,8 +50,8 @@ let str = `
 ╒⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯╕
 ╿ *< 𝕃𝕀𝕊𝕋𝔸 𝔻𝔼 𝕄𝔼ℕ𝕌𝕊 />*
 ╿≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-≔🔖*${usedPrefix}menusticker | ${usedPrefix}menu2*
-≔
+≔🔖 *${usedPrefix}menu2 | ${usedPrefix}menustickers*
+≔🃏 *${usedPrefix}menu3 | ${usedPrefix}menujuegos*
 ╘⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯╛
 `.trim()
 if (m.isGroup) {
