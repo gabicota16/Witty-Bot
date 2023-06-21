@@ -17,7 +17,7 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-╭═══✠𝗠𝗲𝗻𝘂 𝗦𝘁𝗶𝗰𝗸𝗲𝗿𝘀✠═══╮  
+╭═══✠𝗠̲𝗲̲𝗻̲𝘂̲ 𝗦̲𝘁̲𝗶̲𝗰̲𝗸̲𝗲̲𝗿̲𝘀̲✠═══╮  
 ╿
 ╿➪🔖${usedPrefix}sticker ❘ ${usedPrefix}s *(Responde a una*\n*╿imagen o video)*
 ╿
