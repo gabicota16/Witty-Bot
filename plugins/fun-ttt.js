@@ -68,12 +68,12 @@ import { format } from 'util'
   
  let dia = Math.floor(Math.random() * 2) 
  let tok = Math.floor(Math.random() * 2) 
- let gata = Math.floor(Math.random() * 10) 
+ let witty = Math.floor(Math.random() * 10) 
  let expp = Math.floor(Math.random() * 10) 
   
  let dia2 = Math.floor(Math.random() * 15) 
  let tok2 = Math.floor(Math.random() * 10) 
- let gata2 = Math.floor(Math.random() * 1500) 
+ let witty2 = Math.floor(Math.random() * 1500) 
  let expp2 = Math.floor(Math.random() * 2500)   
   
  let winner = isSurrender ? room.game.currentTurn : room.game.winner 
