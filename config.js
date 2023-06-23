@@ -176,7 +176,7 @@ global.imagen12 = fs.readFileSync('./media/menus/img11.jpg')
 global.imagen13 = fs.readFileSync('./media/menus/img12.jpg')
 global.imagen14 = fs.readFileSync('./media/menus/menustickers.jpeg')
 global.imagen15 = fs.readFileSync('./media/menus/menujuegos.jpg')
-global.imagen15 = fs.readFileSync('./media/menus/menudescargas.jpeg')
+global.imagen16 = fs.readFileSync('./media/menus/menudescargas.jpeg')
 
 //━━━━━━━━━━━━━━━━━━━━ 
 
