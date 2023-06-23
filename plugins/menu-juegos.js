@@ -24,6 +24,8 @@ import fetch from 'node-fetch'
  ╿➪🃏${usedPrefix}slot *cantidad*
  ╿
  ╿➪🃏${usedPrefix}ppt *piedra | papel | tijera* 
+ ╿
+ ╿➪🃏${usedPrefix}math *dificultad*
  ╰═╡★★★★★★★★★★★╞═╯ 
  `.trim() 
  if (m.isGroup) { 
