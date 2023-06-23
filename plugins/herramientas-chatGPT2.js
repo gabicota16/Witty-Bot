@@ -4,12 +4,11 @@ import fetch from 'node-fetch'
  const configuration = new Configuration({ organization: global.openai_org_id, apiKey: global.openai_key }); 
  const openaiii = new OpenAIApi(configuration); 
  let handler = async (m, { conn, text, usedPrefix, command }) => { 
- if (!text) throw `*${lenguajeGB['smsAvisoMG']()}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙐𝙉𝘼 𝙋𝙀𝙏𝙄𝘾𝙄𝙊𝙉 𝙊 𝙐𝙉𝘼 𝙊𝙍𝘿𝙀𝙉 𝙋𝘼𝙍𝘼 𝙐𝙎𝘼𝙍 𝙇𝘼 𝙁𝙐𝙉𝘾𝙄𝙊𝙉 𝘿𝙀𝙇 𝘾𝙃𝘼𝙏𝙂𝙋𝙏\n\n❏ 𝙀𝙅𝙀𝙈𝙋𝙇𝙊 𝘿𝙀 𝙋𝙀𝙏𝙄𝘾𝙄𝙊𝙉𝙀𝙎 𝙔 𝙊𝙍𝘿𝙀𝙉𝙀𝙎\n❏ ${usedPrefix + command} Recomienda un top 10 de películas de acción\n❏ ${usedPrefix + command} Codigo en JS para un juego de cartas`     
+ if (!text) throw `*[❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽𝙰 𝙿𝙴𝚃𝙸𝙲𝙸𝙾𝙽 𝙾 𝚄𝙽𝙰 𝙾𝚁𝙳𝙴𝙽 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙻𝙰 𝙵𝚄𝙽𝙲𝙸𝙾𝙽 𝙳𝙴 𝙲𝙷𝙰𝚃𝙶𝙿𝚃*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾𝚂 𝙳𝙴 𝙿𝙴𝚃𝙸𝙲𝙸𝙾𝙽𝙴𝚂 𝚈 𝙾𝚁𝙳𝙴𝙽𝙴𝚂*\n*◉ ${usedPrefix + command} Resumen sobre la segunda guerra mundial*\n*◉ ${usedPrefix + command} Codigo en JS para un juego de cartas*`     
  try { 
- await conn.sendPresenceUpdate('composing', m.chat) 
  let chgptdb = global.chatgpt.data.users[m.sender]; 
  chgptdb.push({ role: 'user', content: text }); 
- const config = { method: 'post', url: 'https://api.openai.com/v1/chat/completions', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + global.openai_key }, data: JSON.stringify({ 'model': 'gpt-3.5-turbo', 'messages': [{ role: 'system', content: 'Bot de WhatsApp el cual fue creado por Gatadios, tu seras GataBot-MD' }, ...chgptdb ]})} 
+ const config = { method: 'post', url: 'https://api.openai.com/v1/chat/completions', headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + global.openai_key }, data: JSON.stringify({ 'model': 'gpt-3.5-turbo', 'messages': [{ role: 'system', content: 'Actuaras como un Bot de WhatsApp el cual fue creado por Gabriel, serás Witty - Bot' }, ...chgptdb ]})} 
  let response = await axios(config); 
  chgptdb.push({ role: 'assistant', content: response.data.choices[0].message.content })  
  m.reply(response.data.choices[0].message.content) 
@@ -38,7 +37,7 @@ import fetch from 'node-fetch'
  m.reply(`${hasill22.result}`.trim())          
  } catch (efe4) {    
  console.log(efe4) 
- throw `${lenguajeGB['smsAvisoFG']()}𝙀𝙍𝙍𝙊𝙍, 𝙑𝙐𝙀𝙇𝙑𝘼 𝘼 𝙄𝙉𝙏𝙀𝙉𝙏𝘼𝙍𝙇𝙊`    
+ throw `*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*`    
  }}}}}} 
- handler.command = ['openai2', 'chatgpt2', 'ia2', 'robot2', 'Witty', 'WittyBot'] 
+ handler.command = ['openai2', 'chatgpt2', 'ia2', 'robot2', 'witty', 'wittybot'] 
  export default handler
