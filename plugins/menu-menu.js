@@ -52,6 +52,7 @@ let str = `
 ╿≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ≔🔖 *${usedPrefix}menu2 | ${usedPrefix}menustickers*
 ≔🃏 *${usedPrefix}menu3 | ${usedPrefix}menujuegos*
+≔🃏 *${usedPrefix}menu4 | ${usedPrefix}menudescargas*
 ╘⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯╛
 `.trim()
 if (m.isGroup) {
