@@ -12,7 +12,7 @@ import fetch from 'node-fetch'
  m.reply(jjJson.data.data.trim())     
  } catch {       
  try {     
- let tioress = await fetch(`https://api.lolhuman.xyz/api/openai?apikey=BrunoSobrino&text=${text}&user=${m.sender}`) 
+ let tioress = await fetch(`https://github.com/transitive-bullshit/chatgpt-api`) 
  let hasill = await tioress.json() 
  m.reply(`${hasill.result}`.trim())    
  } catch {         
