@@ -8,7 +8,7 @@ let fila, columna, sopaNube, sopaPalabra, sopaDir, userSP, cambioLetra, diamante
  } 
   
  async function generarSopaDeLetras() { 
- const LADO = 16 // Si es alto o bajo, puede dar error, deja como esta 
+ const LADO = 14 // Si es alto o bajo, puede dar error, deja como esta 
  let sopaDeLetras = new Array(LADO); 
   
  for (let i = 0; i < LADO; i++) { 
