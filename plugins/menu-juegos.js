@@ -21,7 +21,9 @@ import fetch from 'node-fetch'
  ╿ 
  ╿➪🃏${usedPrefix}buscarpalabra
  ╿ 
- ╿➪🃏${usedPrefix}slot *cantidad* 
+ ╿➪🃏${usedPrefix}slot *cantidad*
+ ╿
+ ╿➪🃏${usedPrefix}ppt *piedra | papel | tijera* 
  ╰═╡★★★★★★★★★★★╞═╯ 
  `.trim() 
  if (m.isGroup) { 
