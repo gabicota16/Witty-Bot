@@ -53,6 +53,7 @@ let str = `
 ≔🔖 *${usedPrefix}menu2 | ${usedPrefix}menustickers*
 ≔🃏 *${usedPrefix}menu3 | ${usedPrefix}menujuegos*
 ≔📥 *${usedPrefix}menu4 | ${usedPrefix}menudescargas*
+≔⚖️ *${usedPrefix}menu5 | ${usedPrefix}menurpg
 ╘⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯╛
 `.trim()
 if (m.isGroup) {
