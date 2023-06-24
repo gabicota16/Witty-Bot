@@ -17,7 +17,7 @@ import fetch from 'node-fetch'
   let readMore = more.repeat(850)     
   let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]  
   let str = `  
-  ╭═══✠𝗠̲𝗲̲𝗻̲𝘂̲ 𝗝̲𝘂̲𝗲̲𝗴̲𝗼̲𝘀̲✠═══╮    
+  ╭═══✠𝗠̲𝗲̲𝗻̲𝘂̲ 𝗥̲𝗣̲𝗚̲✠═══╮    
   ╿  
   ╿➪⚖️${usedPrefix}claim
   ╿  
