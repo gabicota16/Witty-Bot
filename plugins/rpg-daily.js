@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
  } 
  let grupos = [nna] 
  let witty = [img7] 
- let enlace = { contextInfo: { externalAdReply: {title: wm + ' wt', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}} 
+ let enlace = { contextInfo: { externalAdReply: {title: wm + ' wt', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(witty.getRandom())).buffer() }}} 
  let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '𝓦𝓲𝓽𝓽𝔂  -  𝓑𝓸𝓽 ', thumbnailUrl: await(await fetch(global.img)).buffer(), sourceUrl: yt }}} 
  let dos = [enlace, enlace2]     
   
