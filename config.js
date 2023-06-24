@@ -191,7 +191,7 @@ global.img4 = 'https://i.imgur.com/i0pccuo.jpg' //prem
 
 global.img5 = 'https://i.imgur.com/iL1snRx.jpeg'
 global.img6 = 'https://i.imgur.com/cYFgSKv.jpeg'
-global.img7 = 'https://i.imgur.com/JqL3h2V.jpeg'
+global.img7 = '.media/menus/imgclaim.jpg'
 global.img8 = 'https://i.imgur.com/PCujt1s.jpeg'
 global.img9 = 'https://i.imgur.com/xfUEdDb.jpeg'
 
