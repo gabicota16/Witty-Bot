@@ -21,6 +21,8 @@ import fetch from 'node-fetch'
   ╿  
   ╿➪⚙️{usedPrefix}enable *<opción>*
   ╿➪⚙️{usedPrefix}disable *<opción>*
+  ╿➪⚙️{usedPrefix}grupo abrir
+  ╿➪⚙️{usedPrefix}grupo cerrar
   ╿ 
   ╰═╡★★★★★★★★★★★╞═╯  
   `.trim()  
